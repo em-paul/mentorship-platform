@@ -1,0 +1,47 @@
+
+.Event {
+    height: 10vh;
+    width: 18vw;
+    float: center;
+    background: white;
+    border-radius: 14px;
+    box-shadow: rgba(116, 70, 1, 0.801) 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+.Date {
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid black; */
+    color: rgb(0, 180, 151);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Description {
+    height: 100%;
+    width: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.JoinButton {
+    height: 100%;
+    width: 4vw;
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    /* font-size: small; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

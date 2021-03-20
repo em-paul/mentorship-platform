@@ -1,0 +1,107 @@
+
+.MenteeProfile {
+    height: 50vh;
+    width: 50vw;
+    background: white;
+    border-radius: 14px;
+    /* border-color: rgba(116, 70, 1, 0.473); */
+    /* border-color: rgb(222, 222, 222); */
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
+    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.NameCard {
+    height: 50vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProgressCard {
+    height: 50vh;
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Statistics {
+    height: 20vh;
+    width: 32vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Stat {
+    height: inherit;
+    width: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.MyMentors {
+    height: 50vh;
+    width: 50vw;
+    background: white;
+    border-radius: 14px;
+    /* border-color: rgba(116, 70, 1, 0.473); */
+    /* border-color: rgb(222, 222, 222); */
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
+    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+}
+
+.ProgramApplications {
+    height: 50vh;
+    width: 50vw;
+    background: white;
+    border-radius: 14px;
+    /* border-color: rgba(116, 70, 1, 0.473); */
+    /* border-color: rgb(222, 222, 222); */
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
+    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+}
+
+.Resources {
+    height: 50vh;
+    width: 50vw;
+    background: white;
+    border-radius: 14px;
+    /* border-color: rgba(116, 70, 1, 0.473); */
+    /* border-color: rgb(222, 222, 222); */
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
+    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+}
