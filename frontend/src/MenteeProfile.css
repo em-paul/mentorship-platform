@@ -1,22 +1,17 @@
 
-.MenteeProfile {
+.mentee-profile {
     height: 50vh;
     width: 50vw;
     background: white;
     border-radius: 14px;
-    /* border-color: rgba(116, 70, 1, 0.473); */
-    /* border-color: rgb(222, 222, 222); */
-    /* border-style: solid; */
-    /* border-width: 2px; */
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
-    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.NameCard {
+.name-card {
     height: 50vh;
     width: 16vw;
     display: flex;
@@ -25,7 +20,7 @@
     align-items: center;
 }
 
-.ProgressCard {
+.program-progress {
     height: 50vh;
     width: 34vw;
     display: flex;
@@ -34,7 +29,7 @@
     align-items: center;
 }
 
-.Statistics {
+.statistics {
     height: 20vh;
     width: 32vw;
     display: flex;
@@ -43,7 +38,7 @@
     align-items: center;
 }
 
-.Stat {
+.stat {
     height: inherit;
     width: 6vw;
     display: flex;
@@ -52,56 +47,110 @@
     align-items: center;
 }
 
-.MyMentors {
+.my-mentors {
     height: 50vh;
     width: 50vw;
     background: white;
     border-radius: 14px;
-    /* border-color: rgba(116, 70, 1, 0.473); */
-    /* border-color: rgb(222, 222, 222); */
-    /* border-style: solid; */
-    /* border-width: 2px; */
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
-    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     padding: 1em;
 }
 
-.ProgramApplications {
+.mentor {
+    min-height: 10vh;
+    width: 48vw;
+    background: white;
+    border-radius: 14px;
+    box-shadow: rgba(95, 95, 95, 0.432) 2px 2px;
+    border-width: 1px;
+    border-color: rgba(95, 95, 95, 0.199);
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: .75em;
+}
+
+.property{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.mentor-button {
+    height: 3vw;
+    width: 3vw;
+    cursor: pointer;
+    background-color: rgb(14,14,181);
+    border: transparent;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.program-applications {
     height: 50vh;
     width: 50vw;
     background: white;
     border-radius: 14px;
-    /* border-color: rgba(116, 70, 1, 0.473); */
-    /* border-color: rgb(222, 222, 222); */
-    /* border-style: solid; */
-    /* border-width: 2px; */
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
-    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     padding: 1em;
 }
 
-.Resources {
+.resources {
     height: 50vh;
     width: 50vw;
     background: white;
     border-radius: 14px;
-    /* border-color: rgba(116, 70, 1, 0.473); */
-    /* border-color: rgb(222, 222, 222); */
-    /* border-style: solid; */
-    /* border-width: 2px; */
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
-    /* box-shadow: rgb(222, 222, 222) 2px 2px; */
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     padding: 1em;
+}
+
+.resource-grid {
+    height: 40vh;
+    width: 45vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: space-between;
+    align-content: center;
+    padding-left: .4em;
+    row-gap: 1em;
+}
+
+.resource-button {
+    height: 8vw;
+    width: 14vw;
+    cursor: pointer;
+    background-color: rgb(217,241,237,1);
+    box-shadow: rgba(95, 95, 95, 0.432) 2px 2px;
+    border: transparent;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: .75em;
+    padding-right: .75em;
 }

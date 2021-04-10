@@ -28,7 +28,7 @@ const ProgressBar = (props) => {
     }
   
     return (
-      <div className = 'ProgressBar'>
+      <div className = 'progressbar'>
         <h6 style = {{fontWeight: 'bold'}}  /* style = {{display: 'inline-block', padding: '2vw'}} */> {props.program} </h6>
         <div style={barStyle}>
             <div style={fillStyle}>

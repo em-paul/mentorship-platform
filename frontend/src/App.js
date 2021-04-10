@@ -7,16 +7,14 @@
 // import { Dashboard } from './components/Dashboard';
 // import { theme } from './components/Theme';
 // import authProvider from "./providers/authProvider";
-import RightPanel from "./RightPanel";
-import CompactCalendar from './CompactCalendar';
-import ProgressBar from './ProgressBar';
-import MenteeProfile from './MenteeProfile';
+import { RightPanel } from "./RightPanel";
+import { MenteeProfile } from './MenteeProfile';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 // import 'react-tabs/style/react-tabs.css';
 import './react-tabs.css';
-import MyMentors from './MyMentors';
-import Resources from './Resources';
-import ProgramApplications from './ProgramApplications';
+import { MyMentors } from './MyMentors';
+import { Resources } from './Resources';
+import { ProgramApplications } from './ProgramApplications';
 
 import './App.css';
 
@@ -46,14 +44,13 @@ import './App.css';
 function App() {
   return (
     <div className = 'App'>
-      <div style = {{minHeight: '97vh', width: '80vw', float: 'right', background: 'rgb(255, 230, 192)', borderRadius: '22px', 
-      display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }} >
+      <div className = 'main-body'>
         <div style = {{width: '60vw', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} >
           <Tabs>
             <TabList>
               <Tab > My Progress </Tab>
               <Tab > Program Applications </Tab>
-              <Tab> My Mentor(s) </Tab>
+              <Tab> Mentors </Tab>
               <Tab> Resources </Tab>
             </TabList>
             <TabPanel>

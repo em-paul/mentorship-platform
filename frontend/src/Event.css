@@ -1,5 +1,5 @@
 
-.Event {
+.event {
     height: 10vh;
     width: 18vw;
     float: center;
@@ -8,11 +8,11 @@
     box-shadow: rgba(116, 70, 1, 0.801) 2px 2px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 
-.Date {
+.date {
     height: 100%;
     width: 25%;
     /* border: 2px solid black; */
@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.Description {
+.description {
     height: 100%;
     width: 50%;
     color: black;
@@ -33,13 +33,12 @@
     align-items: flex-start;
 }
 
-.JoinButton {
+.join-button {
     height: 100%;
     width: 4vw;
     cursor: pointer;
     background-color: transparent;
     border: transparent;
-    /* font-size: small; */
     display: flex;
     flex-direction: column;
     justify-content: center;

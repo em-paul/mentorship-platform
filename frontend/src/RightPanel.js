@@ -1,11 +1,10 @@
 import React from 'react';
-import {Panel, PanelGroup} from 'rsuite';
-import CompactCalendar from './CompactCalendar';
+// import CompactCalendar from './CompactCalendar';
 import './App.css';
-import Event from './Event'
-import Calendar from 'react-calendar';
+import { Event } from './Event'
+// import Calendar from 'react-calendar';
 
-function RightPanel() {
+export const RightPanel = () => {
     return(
         // <PanelGroup>
         //     <Panel header = "Upcoming Events">
@@ -16,13 +15,13 @@ function RightPanel() {
         //     </Panel>
         // </PanelGroup>
 
-        <div className = "RightPanel">
+        <div className = "right-panel">
             <h4 style = {{fontWeight: 'bold'}} > Upcoming Events </h4>
             <Event month = 'DEC' day = '11' description = 'Mentor Meeting with Michael Powel'/>
             <Event month = 'DEC' day = '20' description = 'Mentor Meeting with Michael Powel'/>
             <Event month = 'JAN' day = '21' description = 'Mentor Meeting with Michael Powel'/>
             <h4 style = {{fontWeight: 'bold'}} > Calendar View </h4>
-            <div className = 'CalendarPlaceholder'>
+            <div className = 'calendar-placeholder'>
                 {/* <h3> Calendar Placeholder</h3> */}
                 {/* <Calendar /> */}
             </div>
@@ -30,4 +29,3 @@ function RightPanel() {
     );
 }
 
-export default RightPanel;

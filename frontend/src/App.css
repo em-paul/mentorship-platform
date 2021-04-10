@@ -41,7 +41,7 @@
   }
 }
 
-.RightPanel {
+.right-panel {
   min-height: 97vh;
   width: 20vw;
   float: right;
@@ -54,7 +54,7 @@
   align-items: center;
 }
 
-.CalendarPlaceholder {
+.calendar-placeholder {
   height: 40vh;
   width: 18vw;
   background: rgb(255, 153, 0);
@@ -66,13 +66,23 @@
   align-items: center;
 }
 
-.ProgressBar {
+.main-body {
+  min-height: 97vh;
+  width: 80vw;
+  float: right;
+  background: rgb(255, 230, 192);
+  border-radius: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.progressbar {
   height: 5vh;
   width: 35vw;
   border-radius: 22px;
   display: flex;
   flex-direction: row;
-  /* display: inline-block; */
   justify-content: flex-end;
   align-items: baseline;
 }

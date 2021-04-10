@@ -1,24 +1,15 @@
 import React from 'react';
 import './Event.css';
-import JoinButton from './JoinButton';
+import { JoinButton } from './JoinButton';
 
-// function Date(props) {
-//     return (
-//         <div className = 'Date'>
-//             <h7> {props.month} </h7>
-//             <h4> {props.day} </h4>
-//         </div>
-//     )
-// }
-
-function Event(props) {
+export const Event = (props) => {
     return (
-        <div className = 'Event'>
-            <div className = 'Date'>
+        <div className = 'event'>
+            <div className = 'date'>
                 <h7 > {props.month} </h7>
                 <h4 style = {{fontWeight: 'bold'}} > {props.day} </h4>
             </div>
-            <div className = 'Description'>
+            <div className = 'description'>
                 <h6> {props.description} </h6>
             </div>
             <div className = 'JoinButton'>
@@ -28,4 +19,3 @@ function Event(props) {
     )
 }
 
-export default Event;

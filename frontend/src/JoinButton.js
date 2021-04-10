@@ -6,13 +6,14 @@ function OnClick() {
     alert('Join Call Button Clicked')
 }
 
-function JoinButton() {
+export const JoinButton = () => {
     return (
-        <button onClick = {OnClick} className = 'JoinButton'>
-            <FaPhoneAlt size = '1.5em'/>
-            {/* <p> Join Now </p> */}
-        </button>
+        <div>
+            <button onClick = {OnClick} className = 'join-button'>
+                <FaPhoneAlt size = '1.5em'/>
+            </button>
+            {/* <p style = {{fontSize: '.5em'}}> Join Now </p> */}
+        </div>
     )
 }
 
-export default JoinButton;
