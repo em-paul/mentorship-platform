@@ -87,10 +87,16 @@
   align-items: baseline;
 }
 
-/* .Bar {
-  height: 2vh;
-  width: 20vw;
-  border-radius: 22px;
-  background-color: rgb(153, 153, 153);
-  justify-content: flex-start;
-} */
+.top-bar {
+  margin-top: 1.5vh;
+  margin-right: 1.5vh;
+  height: 7vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1em;
+}
+
