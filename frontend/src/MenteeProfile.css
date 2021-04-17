@@ -1,13 +1,13 @@
 
 .mentee-profile {
     height: 50vh;
-    width: 50vw;
+    width: 55vw;
     background: white;
     border-radius: 14px;
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -31,7 +31,7 @@
 
 .statistics {
     height: 20vh;
-    width: 32vw;
+    width: inherit;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -45,11 +45,12 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    text-align: center;
 }
 
 .my-mentors {
     height: 50vh;
-    width: 50vw;
+    width: 55vw;
     background: white;
     border-radius: 14px;
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
@@ -104,7 +105,7 @@
 
 .program-applications {
     height: 50vh;
-    width: 50vw;
+    width: 55vw;
     background: white;
     border-radius: 14px;
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
@@ -117,7 +118,7 @@
 
 .resources {
     height: 50vh;
-    width: 50vw;
+    width: 55vw;
     background: white;
     border-radius: 14px;
     box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;

@@ -3,7 +3,6 @@
   text-align: center;
   justify-content: right;
   align-items: baseline;
-  /* background-color: rgb(255, 220, 167); */
 }
 
 .App-logo {
@@ -42,8 +41,8 @@
 }
 
 .right-panel {
-  min-height: 97vh;
-  width: 20vw;
+  min-height: 87vh;
+  width: 22vw;
   float: right;
   padding: 5px;
   background: rgb(255, 204, 128);
@@ -56,7 +55,7 @@
 
 .calendar-placeholder {
   height: 40vh;
-  width: 18vw;
+  width: 20vw;
   background: rgb(255, 153, 0);
   border-radius: 14px;
   box-shadow: rgba(116, 70, 1, 0.801) 2px 2px;
@@ -67,8 +66,9 @@
 }
 
 .main-body {
-  min-height: 97vh;
-  width: 80vw;
+  margin: 1.5vh;
+  min-height: 87vh;
+  width: 85vw;
   float: right;
   background: rgb(255, 230, 192);
   border-radius: 22px;
