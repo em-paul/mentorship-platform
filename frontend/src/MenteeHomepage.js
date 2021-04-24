@@ -5,12 +5,12 @@ import { MyMentors } from './MyMentors';
 import { Resources } from './Resources';
 import { ProgramApplications } from './ProgramApplications';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import './mentee-homepage-tabs.css';
+import styles from './mentee-homepage-tabs.css';
 
 export const MenteeHomepage = () => {
     return (
         <div className = 'main-body'>
-            <div style = {{width: '60vw', display: 'flex', flexDirection: 'column', 
+            <div style = {{width: '62vw', display: 'flex', flexDirection: 'column', 
             justifyContent: 'center', alignItems: 'center'}} >
                 <Tabs>
                     <TabList>
