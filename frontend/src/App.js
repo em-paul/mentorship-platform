@@ -1,15 +1,13 @@
-import './mentee-homepage-tabs.css';
+import './Tabs.css';
 import { MenteeHomepage } from './MenteeHomepage';
 import './App.css';
 import { IoPersonCircleSharp, IoAppsOutline, IoChatbubblesOutline } from 'react-icons/io5';
 import Logo from './PA_logo_color_dark.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import styled from 'styled-components';
-// import styles from './vertical-tabs.css';
 import { HiOutlineHome } from 'react-icons/hi';
 import { FiFlag } from 'react-icons/fi';
 import { BsFileText } from 'react-icons/bs';
-import ProgressBar from './ProgressBar';
+// import ProgressBar from './ProgressBar';
 
 const TopBar = () => {
   return (
@@ -29,55 +27,33 @@ const TopBar = () => {
   )
 }
 
-const VerticalTabs = styled(Tabs)`
-  display: flex;
-`;
-
-const VerticalTabList = styled(TabList)`
-  activeTabClassName: 'react-tabs__vertical-tab--selected';
-  display: flex;
-  margin-right: 3vw;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const VerticalTab = styled(Tab)`
-  background: rgba(217, 241, 237, 1);
-  color: rgba(25, 175, 149, 1);
-  font-size: 1em;
-  font-weight: bold;
-  border-radius: 50px;
-  display: inline-block;
-  margin-top: 1em;
-  box-shadow: rgba(95, 95, 95, 0.432) 2.5px 2.5px;
-  bottom: -1px;
-  position: relative;
-  list-style: none;
-  padding: 10px 20px;
-  cursor: pointer;
-`;
-
 function App() {
   return (
     <div style = {{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end'}} >
       <TopBar />
-      <VerticalTabs>
-        <VerticalTabList activeTabClassName = 'react-tabs__vertical-tab--selected' >
-          <VerticalTab> 
+      <Tabs className = 'react-vertical-tabs'>
+        <TabList className = 'react-tabs__vertical-tab-list'>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
             <HiOutlineHome size = '2em'/>
-            {/* <h6 style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Home </h6> */}
-          </VerticalTab>
+          </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Home </p>
-          <VerticalTab> <IoAppsOutline size = '2em' /> </VerticalTab>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
+            <IoAppsOutline size = '2em' /> 
+          </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Programs </p>
-          <VerticalTab> <FiFlag size = '2em' /> </VerticalTab>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
+            <FiFlag size = '2em' /> 
+          </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Modules </p>
-          <VerticalTab> <BsFileText size = '2em' /> </VerticalTab>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
+            <BsFileText size = '2em' /> 
+          </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Applications </p>
-          <VerticalTab> <IoChatbubblesOutline size = '2em' /> </VerticalTab>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
+            <IoChatbubblesOutline size = '2em' /> 
+          </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Messages </p>
-        </VerticalTabList>
+        </TabList>
         <TabPanel>
           <MenteeHomepage />
         </TabPanel>
@@ -116,9 +92,7 @@ function App() {
             </div>
           </div>
         </TabPanel>
-      </VerticalTabs>
-      
-      
+      </Tabs>
     </div>
     
   )

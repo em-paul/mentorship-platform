@@ -5,7 +5,7 @@ import { MyMentors } from './MyMentors';
 import { Resources } from './Resources';
 import { ProgramApplications } from './ProgramApplications';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import styles from './mentee-homepage-tabs.css';
+import './Tabs.css';
 
 export const MenteeHomepage = () => {
     return (
