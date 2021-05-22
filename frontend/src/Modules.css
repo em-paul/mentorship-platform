@@ -47,3 +47,13 @@
     align-content: center;
     row-gap: 1em;
 }
+
+.nested-module-grid {
+    /* height: inherit; */
+    width: 71vw;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 1em;
+}
