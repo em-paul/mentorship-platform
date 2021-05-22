@@ -1,0 +1,49 @@
+
+.modules-card {
+    min-height: 65vh;
+    width: 80.5vw;
+    background: white;
+    border-radius: 14px;
+    box-shadow: rgba(116, 70, 1, 0.473) 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+}
+
+.contents {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2em;
+}
+
+.module-button {
+    height: 8vw;
+    width: 14vw;
+    cursor: pointer;
+    background-color: rgb(217,241,237,1);
+    box-shadow: rgba(95, 95, 95, 0.432) 2px 2px;
+    border: transparent;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.module-grid {
+    /* height: inherit; */
+    width: 77vw;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 1em;
+}

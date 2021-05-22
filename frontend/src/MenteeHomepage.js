@@ -14,8 +14,8 @@ export const MenteeHomepage = () => {
             justifyContent: 'center', alignItems: 'center'}} >
                 <Tabs>
                     <TabList>
-                        <Tab > My Progress </Tab>
-                        <Tab > Program Applications </Tab>
+                        <Tab> My Progress </Tab>
+                        <Tab> Program Applications </Tab>
                         <Tab> Mentors </Tab>
                         <Tab> Resources </Tab>
                     </TabList>
