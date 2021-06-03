@@ -7,12 +7,14 @@ import { IoCalendarOutline } from 'react-icons/io5';
 import { BsQuestionCircle, BsClipboardData } from 'react-icons/bs';
 import { GiPodiumWinner, GiMedicines, GiBullseye, GiPencil, GiSpellBook, GiMegaphone, GiPalette, GiChecklist, 
     GiMedallist, GiCardPick, GiLightBulb, GiQuillInk, GiPencilRuler, GiBookshelf, GiBookPile, GiLetterBomb, 
-    GiFountainPen, GiMoneyStack, GiReceiveMoney, GiPayMoney, GiEarthAsiaOceania} from 'react-icons/gi';
+    GiFountainPen, GiMoneyStack, GiReceiveMoney, GiPayMoney, GiEarthAsiaOceania, GiScales, GiTennisRacket, 
+    GiMusicalScore, GiUnbalanced, GiBlindfold } from 'react-icons/gi';
 import { FaRegHospital, FaChalkboardTeacher, FaDatabase } from 'react-icons/fa';
-import { AiOutlineControl, AiOutlineForm } from 'react-icons/ai';
+import { AiOutlineControl, AiOutlineForm, AiOutlineStop } from 'react-icons/ai';
 import { GoChecklist } from 'react-icons/go';
 import { RiTreasureMapLine, RiGuideFill, RiMoneyPoundBoxLine } from 'react-icons/ri';
 import { HiOutlineUserGroup } from 'react-icons/hi';
+import { GrOverview } from 'react-icons/gr';
 
 function UKHowUCASOnClick() {
     window.open('https://projectaccess.org/how-ucas-apply-works')
@@ -508,6 +510,201 @@ const UKCambridgeNonEUButton = () => {
     )
 }
 
+function USCommonAppOnClick() {
+    window.open('https://www.youtube.com/watch?v=pziMelhmR6k')
+}
+
+const USCommonAppButton = () => {
+    return (
+        <button onClick = {USCommonAppOnClick} className = 'module-button'>
+            <RiFileInfoLine size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Common application website tutorial </h6>
+        </button>
+    )
+}
+
+function USUGAppCalOnClick() {
+    window.open('https://static1.squarespace.com/static/5a1abda8aeb6251ef0a76deb/t/5e9ecc7de188753f74bdf97e/1587465360487/UNDERGRADUATE+CALENDAR+US.pdf')
+}
+
+const USUGAppCalButton = () => {
+    return (
+        <button onClick = {USUGAppCalOnClick} className = 'module-button'>
+            <IoCalendarOutline size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Undergraduate application calendar </h6>
+        </button>
+    )
+}
+
+function USFairOpportunityOnClick() {
+    window.open('https://www.fairopportunityproject.org/')
+}
+
+const USFairOpportunityButton = () => {
+    return (
+        <button onClick = {USFairOpportunityOnClick} className = 'module-button'>
+            <GiScales size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> The fair opportunity project </h6>
+        </button>
+    )
+}
+
+function USApplyMedOnClick() {
+    window.open('https://youtu.be/g-wT7ckhY2k')
+}
+
+const USApplyMedButton = () => {
+    return (
+        <button onClick = {USApplyMedOnClick} className = 'module-button'>
+            <GiMedicines size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Applying to medical school in the US </h6>
+        </button>
+    )
+}
+
+function USEssayExamplesOnClick() {
+    window.open('https://projectaccess.org/applying-to-university-resources/2020/10/13/example-essays')
+}
+
+const USEssayExamplesButton = () => {
+    return (
+        <button onClick = {USEssayExamplesOnClick} className = 'module-button'>
+            <GiBookPile size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Example essays </h6>
+        </button>
+    )
+}
+
+function USEssayKAOnClick() {
+    window.open('https://projectaccess.org/applying-to-university-resources/2020/10/13/khan-academy-what-makes-a-great-admissions-essay')
+}
+
+const USEssayKAButton = () => {
+    return (
+        <button onClick = {USEssayKAOnClick} className = 'module-button'>
+            <GiChecklist size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Khan Academy: what makes a great admissions essay </h6>
+        </button>
+    )
+}
+
+function USCommonAppTipsOnClick() {
+    window.open('https://www.collegeessayadvisors.com/portfolio-items/common-application-essay-tips/')
+}
+
+const USCommonAppTipsButton = () => {
+    return (
+        <button onClick = {USCommonAppTipsOnClick} className = 'module-button'>
+            <GiCardPick size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Top six common application tips </h6>
+        </button>
+    )
+}
+
+function USAppAvoidOnClick() {
+    window.open('https://www.youtube.com/watch?v=cOPoROA2Iio')
+}
+
+const USAppAvoidButton = () => {
+    return (
+        <button onClick = {USAppAvoidOnClick} className = 'module-button'>
+            <AiOutlineStop size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> What to avoid in your application </h6>
+        </button>
+    )
+}
+
+function USECActivitiesKAOnClick() {
+    window.open('https://www.khanacademy.org/college-careers-more/college-admissions/making-high-school-count#extracurricular-and-leadership')
+}
+
+const USECActivitiesKAButton = () => {
+    return (
+        <button onClick = {USECActivitiesKAOnClick} className = 'module-button'>
+            <GiTennisRacket size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Khan Academy: extracurricular and leadership activities </h6>
+        </button>
+    )
+}
+
+function USECWhatWhyOnClick() {
+    window.open('https://blog.prepscholar.com/what-are-extracurricular-activities-and-why-do-you-need-them')
+}
+
+const USECWhatWhyButton = () => {
+    return (
+        <button onClick = {USECWhatWhyOnClick} className = 'module-button'>
+            <GiMusicalScore size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> What are extracurriculars and why do you need them? </h6>
+        </button>
+    )
+}
+
+function USECPrioritizeOnClick() {
+    window.open('https://www.studypoint.com/expert-advice/how-should-i-prioritize-my-extra-curricular-activi/')
+}
+
+const USECPrioritizeButton = () => {
+    return (
+        <button onClick = {USECPrioritizeOnClick} className = 'module-button'>
+            <GiUnbalanced size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> How to prioritize your activities </h6>
+        </button>
+    )
+}
+
+function USAceSATOnClick() {
+    window.open('https://blog.prepscholar.com/how-to-get-a-perfect-sat-score-by-a-2400-sat-scorer')
+}
+
+const USAceSATButton = () => {
+    return (
+        <button onClick = {USAceSATOnClick} className = 'module-button'>
+            <GiMedallist size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> How to ace the SAT </h6>
+        </button>
+    )
+}
+
+function USSATOverviewOnClick() {
+    window.open('https://www.khanacademy.org/test-prep/sat/new-sat-tips-planning/new-sat-about-sat/a/redesigned-sat-content-and-format')
+}
+
+const USSATOverviewButton = () => {
+    return (
+        <button onClick = {USSATOverviewOnClick} className = 'module-button'>
+            <GrOverview size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> An overview of the new SAT </h6>
+        </button>
+    )
+}
+
+function USIntFinAidOnClick() {
+    window.open('https://en.wikipedia.org/wiki/Student_financial_aid_(United_States)#International_students(United_States)#International_students')
+}
+
+const USIntFinAidButton = () => {
+    return (
+        <button onClick = {USIntFinAidOnClick} className = 'module-button'>
+            <GiEarthAsiaOceania size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Financial Aid for international students </h6>
+        </button>
+    )
+}
+
+function USNeedBlindOnClick() {
+    window.open('https://en.wikipedia.org/wiki/Need-blind_admission')
+}
+
+const USNeedBlindButton = () => {
+    return (
+        <button onClick = {USNeedBlindOnClick} className = 'module-button'>
+            <GiBlindfold size = '3em' color = 'rgb(0, 0, 0)'/>
+            <h6> Explanation of need-blind admissions at US universities </h6>
+        </button>
+    )
+}
+
 export const ApplyCard = () => {
     return (
         <div className = 'modules-card'>
@@ -598,7 +795,34 @@ export const ApplyCard = () => {
                         <div className = 'contents'>
                             <h5 style = {{fontWeight: 'bold'}} > 1. How to Get In: Introduction </h5>
                             <div className = 'nested-module-grid'>
-                                
+                                <USCommonAppButton />
+                                <USUGAppCalButton />
+                                <USFairOpportunityButton />
+                                <USApplyMedButton />
+                            </div>
+                            <h5 style = {{fontWeight: 'bold', paddingTop: '1em'}} > 2. How to Get In: Essays </h5>
+                            <div className = 'nested-module-grid'>
+                                <USEssayExamplesButton />
+                                {/* USEssayKAButton link does not have any content */}
+                                <USEssayKAButton />
+                                <USCommonAppTipsButton />
+                                <USAppAvoidButton />
+                            </div>
+                            <h5 style = {{fontWeight: 'bold', paddingTop: '1em'}} > 3. How to Get In: Extra-Curricular Activities and CV/Resume </h5>
+                            <div className = 'nested-module-grid'>
+                                <USECActivitiesKAButton />
+                                <USECWhatWhyButton />
+                                <USECPrioritizeButton />
+                            </div>
+                            <h5 style = {{fontWeight: 'bold', paddingTop: '1em'}} > 4. How to Get In: Standardized Tests </h5>
+                            <div className = 'nested-module-grid'>
+                                <USSATOverviewButton />
+                                <USAceSATButton />
+                            </div>
+                            <h5 style = {{fontWeight: 'bold', paddingTop: '1em'}} > 5. Financial Aid for International Students </h5>
+                            <div className = 'nested-module-grid'>
+                                <USIntFinAidButton />
+                                <USNeedBlindButton />
                             </div>
                         </div>
                     </div>
@@ -606,12 +830,15 @@ export const ApplyCard = () => {
                 <TabPanel>
                     <div style = {{width: '76.5vw'}}>
                         <h4 style = {{fontWeight: 'bold'}} > Postgraduate Studies </h4>
-                        <div className = 'contents'>
-                            <h5 style = {{fontWeight: 'bold'}} > 1. How to Get In: Introduction </h5>
+                        Scroll to the bottom of 
+                        <a href = 'https://projectaccess.org/applying-to-university'> this page </a>
+                        to find resources for applying for postgraduate studies, grouped by topic.
+                        {/* <div className = 'contents'>
+                            <h5 style = {{fontWeight: 'bold'}} > 1.  </h5>
                             <div className = 'nested-module-grid'>
                                 
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </TabPanel>
             </Tabs>
