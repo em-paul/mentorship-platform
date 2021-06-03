@@ -8,7 +8,8 @@ import { HiOutlineHome } from 'react-icons/hi';
 import { FiFlag } from 'react-icons/fi';
 import { BsFileText } from 'react-icons/bs';
 // import ProgressBar from './ProgressBar';
-import { Modules } from './Modules';
+import { AccessAcademy } from './AccessAcademy';
+import { GoLightBulb } from 'react-icons/go';
 
 const TopBar = () => {
   return (
@@ -47,6 +48,10 @@ function App() {
           </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Modules </p>
           <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
+            <GoLightBulb size = '2em' /> 
+          </Tab>
+          <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Access Academy </p>
+          <Tab className = 'react-tabs__vertical-tab' selectedClassName = 'react-tabs__vertical-tab--selected'> 
             <BsFileText size = '2em' /> 
           </Tab>
           <p style = {{color: 'rgba(25, 175, 149, 1)', fontWeight: 'bold'}} > Applications </p>
@@ -69,11 +74,20 @@ function App() {
         </TabPanel>
         <TabPanel>
           <div className = 'main-body' >
+            <div style = {{height: '87vh', width: '85vw', padding: '2em', 
+            display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}} >
+              <h1> Modules </h1>
+              <p> Should probably be accessed through the Programs tab? </p>
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <div className = 'main-body' >
             <div style = {{minHeight: '87vh', width: '85vw', padding: '2em', 
             display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}} >
               <h1> Access Academy Learning Modules </h1>
               {/* <ProgressBar program = 'Completion' progress = {72} color = 'rgba(25, 175, 149, 1)' /> */}
-              <Modules />
+              <AccessAcademy />
             </div>
           </div>
         </TabPanel>

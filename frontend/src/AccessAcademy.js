@@ -6,7 +6,7 @@ import { ChooseCard } from './ChoosePath';
 import { ApplyCard } from './ApplyUni';
 import { GoCard } from './GoUni';
 
-export const Modules = () => {
+export const AccessAcademy = () => {
     return (
         <div>
             <Tabs>
